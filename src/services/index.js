@@ -1,6 +1,6 @@
 import { useInfiniteQuery, useQuery } from '@tanstack/vue-query'
-// const API_URL = 'http://api.cinema.fabiogentile.com/'
-const API_URL = 'http://localhost:8000/'
+
+const API_URL = import.meta.env.VITE_API_URL
 
 export function getNowTheatre() {
   const {
