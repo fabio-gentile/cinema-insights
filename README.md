@@ -1,35 +1,57 @@
-# vue-project
 
-This template should help get you started developing with Vue 3 in Vite.
+# Projet personnel :  Cinema Insights
 
-## Recommended IDE Setup
+## Introduction
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Ce site a été créé de manière autodidacte dans le but de développer des compétences dans l'utilisation du framework Vue.js. Il offre la possibilité de découvrir les dernières créations ainsi que des détails sur les films, séries, acteurs et réalisateurs.
 
-## Customize configuration
+## Technologies 
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Le site repose sur plusieurs technologies :
 
-## Project Setup
+- **Vue.js** `Composition API`
+- **Tailwind CSS** 
 
-```sh
-npm install
-```
+### Librairies externes utilisées
 
-### Compile and Hot-Reload for Development
+- [Tanstack Query](https://github.com/tanstack/query) Une bibliothèque de gestion d'état pour les requêtes.
+-  [Swiperjs](https://github.com/nolimits4web/swiper) Une bibliothèque de carousels et de sliders.
 
-```sh
-npm run dev
-```
+## Page d'Accueil
 
-### Compile and Minify for Production
+La page d'accueil est dynamique, affichant les contenus à la mode actuellement au cinéma :
 
-```sh
-npm run build
-```
+- **Trending** : Découvrez ce qui fait sensation en ce moment.
+- **Stars** : Explorez les acteurs et réalisateurs en vogue.
+-  **Now in theatres** : Films projetés au cinéma.
 
-### Lint with [ESLint](https://eslint.org/)
+## Page Movies
 
-```sh
-npm run lint
-```
+Vous y retrouverez les films populaires dernièrement. Il y a également des filtres applicables pour affiner les résultats.
+
+## Page Tv Shows
+
+Vous y retrouverez les séries populaires dernièrement. Il y a également des filtres applicables pour affiner les résultats.
+
+## Exploration
+
+- **Recherche Rapide** : Utilisez la barre de recherche pour trouver des films ou séries.
+
+## Fonctionnalités Avancées
+
+### Pages Personnalisées
+
+- **Stars Individuelles** : Cliquez sur une star pour accéder à sa page personnelle. Découvrez sa biographie, l'ensemble de ses travaux et ses projets les plus marquants.
+- **Films et Séries Individuels** : Explorez les détails, les bandes-annonces, les genres et les recommandations pour chaque film ou série. Pour les séries, accédez également aux informations sur les saisons.
+
+### Modes d'Affichage
+
+- **Dark et Light Mode** : Choisissez le mode d'affichage qui correspond à votre préférence.
+
+## Gestion des Données
+
+- Les données sont fournies par l'API gratuite de [The Movie Database (TMDb)](https://developer.themoviedb.org/docs).
+- Les requêtes sont gérées via un serveur **Fastify** pour cacher ma clef api. Le serveur est déployé sur un serveur gratuit provenant de [Fly.io](https://fly.io/).
+
+---
+**Note :** Ce produit utilise l'API TMDB mais n'est ni approuvé ni certifié par TMDB. Les images utilisées ne sont pas la propriété de l'auteur de ce projet et sont utilisées à des fins illustratives uniquement.
