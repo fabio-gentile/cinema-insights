@@ -1,0 +1,14 @@
+.swiper-slide {
+    width: initial !important;
+}
+
+.swiper-button-disabled {
+    display: none !important;
+}
+
+@media all and (width <= 992px) {
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none !important;
+    }
+}
