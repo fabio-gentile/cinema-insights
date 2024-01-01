@@ -1,6 +1,8 @@
 
 # Projet personnel :  Cinema Insights
 
+![Miniature cinema insights](https://fabiogentile.me/thumbnail/cinemainsights.png)
+
 ## Introduction
 
 Ce site a été créé de manière autodidacte dans le but de développer des compétences dans l'utilisation du framework Vue.js. Il offre la possibilité de découvrir les dernières créations ainsi que des détails sur les films, séries, acteurs et réalisateurs.
