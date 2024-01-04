@@ -1,7 +1,7 @@
 
 # Projet personnel :  Cinema Insights
 
-![Miniature cinema insights](https://fabiogentile.me/thumbnail/cinemainsights.png)
+![Miniature cinema insights](https://fabiogentile.me/thumbnail/cinemainsights.webp)
 
 ## Introduction
 
